@@ -41,8 +41,10 @@
     "@backstage/plugin-auth-backend": "^0.22.10",
     "@backstage/plugin-auth-backend-module-guest-provider": "^0.1.9",
     "@types/express": "*",
+    "@types/node-fetch": "^2.6.11",
     "@types/supertest": "^2.0.12",
     "msw": "^2.3.1",
+    "node-fetch": "^2.6.7",
     "supertest": "^6.2.4"
   },
   "files": [
