@@ -51,4 +51,8 @@ backend.add(import('@backstage/plugin-search-backend-module-techdocs/alpha'));
 // kubernetes
 backend.add(import('@backstage/plugin-kubernetes-backend/alpha'));
 
+// time-saver plugin
+backend.add(import('@backstage-community/plugin-time-saver-backend'));
+backend.add(import('@backstage-community/plugin-catalog-backend-module-time-saver-processor'));
+
 backend.start();
