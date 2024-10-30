@@ -1,5 +1,21 @@
 # @backstage-community/plugin-cicd-statistics-module-gitlab
 
+## 0.1.35
+
+### Patch Changes
+
+- a624400: Backstage version bump to v1.32.0
+- Updated dependencies [a624400]
+  - @backstage-community/plugin-cicd-statistics@0.1.41
+
+## 0.1.34
+
+### Patch Changes
+
+- 52fcd76: Adds support for Backstage's new frontend system, available via the `/alpha` sub-path export.
+- Updated dependencies [52fcd76]
+  - @backstage-community/plugin-cicd-statistics@0.1.40
+
 ## 0.1.33
 
 ### Patch Changes

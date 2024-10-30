@@ -1,5 +1,26 @@
 # backend
 
+## 0.0.7
+
+### Patch Changes
+
+- Updated dependencies [4876ff1]
+  - @backstage-community/plugin-blackduck-backend@0.0.7
+
+## 0.0.6
+
+### Patch Changes
+
+- Updated dependencies [d86bc62]
+  - @backstage-community/plugin-blackduck-backend@0.0.6
+
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies [e8617d5]
+  - @backstage-community/plugin-blackduck-backend@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

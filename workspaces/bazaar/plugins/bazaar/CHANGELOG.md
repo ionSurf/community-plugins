@@ -1,5 +1,41 @@
 # @backstage-community/plugin-bazaar
 
+## 0.5.1
+
+### Patch Changes
+
+- 56ae2fe: Backstage version bump to v1.32.2
+
+## 0.5.0
+
+### Minor Changes
+
+- fe0d104: Added a new UserSelector component that allows users to select a responsible user from the catalog, with the option to manually enter still being there"
+
+## 0.4.0
+
+### Minor Changes
+
+- 5fbdb1d: Added next steps after joining a project
+
+## 0.3.0
+
+### Minor Changes
+
+- 2873d5f: Adding Completion Capabilities
+
+## 0.2.30
+
+### Patch Changes
+
+- cb24354: Backstage version bump to v1.31.1
+
+## 0.2.29
+
+### Patch Changes
+
+- 23c908d: Backstage version bump to v1.30.2
+
 ## 0.2.28
 
 ### Patch Changes

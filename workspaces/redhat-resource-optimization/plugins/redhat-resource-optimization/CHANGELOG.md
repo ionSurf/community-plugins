@@ -1,5 +1,21 @@
 # @backstage-community/plugin-redhat-resource-optimization
 
+## 1.0.4
+
+### Patch Changes
+
+- 3a1aab2: Backstage version bump to v1.32.2
+- Updated dependencies [3a1aab2]
+  - @backstage-community/plugin-redhat-resource-optimization-common@1.0.3
+
+## 1.0.3
+
+### Patch Changes
+
+- df1288f: Backstage version bump to v1.31.2
+- Updated dependencies [df1288f]
+  - @backstage-community/plugin-redhat-resource-optimization-common@1.0.2
+
 ## 1.0.2
 
 ### Patch Changes

@@ -1,5 +1,33 @@
 # @backstage-community/plugin-sonarqube
 
+## 0.8.5
+
+### Patch Changes
+
+- d59c520: fix typo in README.md file
+
+## 0.8.4
+
+### Patch Changes
+
+- 4d0cdf5: Backstage version bump to v1.32.2
+- Updated dependencies [4d0cdf5]
+  - @backstage-community/plugin-sonarqube-react@0.2.3
+
+## 0.8.3
+
+### Patch Changes
+
+- 3ef2d79: Backstage version bump to v1.31.2
+- Updated dependencies [3ef2d79]
+  - @backstage-community/plugin-sonarqube-react@0.2.2
+
+## 0.8.2
+
+### Patch Changes
+
+- f257398: adds support for Backstage's new frontend system, available via the `/alpha` sub-path export.
+
 ## 0.8.1
 
 ### Patch Changes

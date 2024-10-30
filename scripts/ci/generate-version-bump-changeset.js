@@ -18,17 +18,20 @@
 
 // This script assumes that it is being ran from the plugins workspace,
 // for example: `/workspaces/azure-devops` and would be called like this:
-// `node ../../scripts/ci/generate-version-bump-changeset.js 1.29.1`
+// `node ../../scripts/ci/generate-version-bump-changeset.js 1.29.1 minor`
 
 import fs from 'fs-extra';
 import { getPackages } from '@manypkg/get-packages';
 import { join } from 'path';
 
 async function main() {
-  // Get the releaseVersion
-  const [script, releaseVersion] = process.argv.slice(1);
-  if (!releaseVersion) {
-    throw new Error(`Argument must be ${script} <release-version>`);
+  // Get the releaseVersion and versionBumpType
+  const [script, releaseVersion, versionBumpType] = process.argv.slice(1);
+
+  if (!releaseVersion || !versionBumpType) {
+    throw new Error(
+      `Argument must be ${script} <release-version> <version-bump-type>`,
+    );
   }
 
   const workspacePlugins = join(process.cwd(), 'plugins');
@@ -45,8 +48,8 @@ async function main() {
   // as this avoids including any sample `app` and/or sample `backend` in the changeset
   const { packages } = await getPackages(workspacePlugins);
   const packageEntries = packages
-    .filter((p) => p.packageJson.name.includes('@backstage-community'))
-    .map((p) => `'${p.packageJson.name}': patch`);
+    .filter(p => p.packageJson.name.includes('@backstage-community'))
+    .map(p => `'${p.packageJson.name}': ${versionBumpType}`);
 
   // Populate the changeset contents
   const changeset = `---
@@ -59,7 +62,7 @@ Backstage version bump to v${releaseVersion}\n`;
   await fs.writeFile(workspaceChangeset, changeset);
 }
 
-main().catch((error) => {
+main().catch(error => {
   console.error(error.stack);
   process.exit(1);
 });

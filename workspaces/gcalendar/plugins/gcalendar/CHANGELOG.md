@@ -1,5 +1,17 @@
 # @backstage-community/plugin-gcalendar
 
+## 0.3.32
+
+### Patch Changes
+
+- 1271e5f: Backstage version bump to v1.32.2
+
+## 0.3.31
+
+### Patch Changes
+
+- 6cdeb02: Backstage version bump to v1.31.2
+
 ## 0.3.30
 
 ### Patch Changes

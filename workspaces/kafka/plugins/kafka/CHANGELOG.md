@@ -1,5 +1,17 @@
 # @backstage-community/plugin-kafka
 
+## 0.3.39
+
+### Patch Changes
+
+- 0598d44: Backstage version bump to v1.32.2
+
+## 0.3.38
+
+### Patch Changes
+
+- ec791d1: Backstage version bump to v1.31.1
+
 ## 0.3.37
 
 ### Patch Changes

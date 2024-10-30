@@ -1,5 +1,17 @@
 # @backstage-community/plugin-analytics-module-newrelic-browser
 
+## 0.1.9
+
+### Patch Changes
+
+- 46ca1d0: Backstage version bump to v1.32.2
+
+## 0.1.8
+
+### Patch Changes
+
+- 6de81a5: Backstage version bump to v1.31.2
+
 ## 0.1.7
 
 ### Patch Changes

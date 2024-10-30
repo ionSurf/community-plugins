@@ -1,5 +1,17 @@
 # @backstage-community/plugin-cloudbuild
 
+## 0.5.7
+
+### Patch Changes
+
+- 9f22032: Backstage version bump to v1.32.2
+
+## 0.5.6
+
+### Patch Changes
+
+- fad474f: Backstage version bump to v1.31.2
+
 ## 0.5.5
 
 ### Patch Changes

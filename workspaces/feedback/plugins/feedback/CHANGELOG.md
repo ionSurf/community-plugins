@@ -1,5 +1,29 @@
 ## @janus-idp/backstage-plugin-feedback [1.6.0](https://github.com/janus-idp/backstage-plugins/compare/@janus-idp/backstage-plugin-feedback@1.5.0...@janus-idp/backstage-plugin-feedback@1.6.0) (2024-07-26)
 
+## 1.6.8
+
+### Patch Changes
+
+- 8d37fb7: update theme handling for light and dark mode
+
+## 1.6.7
+
+### Patch Changes
+
+- 133e87e: Backstage version bump to v1.32.2
+
+## 1.6.6
+
+### Patch Changes
+
+- ee94c55: Updated dependency `@redhat-developer/red-hat-developer-hub-theme` to `0.2.0`.
+
+## 1.6.5
+
+### Patch Changes
+
+- 6e8c531: Backstage version bump to v1.31.1
+
 ## 1.6.4
 
 ### Patch Changes

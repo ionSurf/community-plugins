@@ -1,5 +1,17 @@
 # @backstage-community/plugin-vault
 
+## 0.1.36
+
+### Patch Changes
+
+- a9e36e9: Backstage version bump to v1.32.2
+
+## 0.1.35
+
+### Patch Changes
+
+- 26306c4: Backstage version bump to v1.31.2
+
 ## 0.1.34
 
 ### Patch Changes

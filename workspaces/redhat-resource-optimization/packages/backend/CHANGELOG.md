@@ -1,5 +1,19 @@
 # backend
 
+## 0.0.5
+
+### Patch Changes
+
+- Updated dependencies [3a1aab2]
+  - @backstage-community/plugin-redhat-resource-optimization-backend@1.0.4
+
+## 0.0.4
+
+### Patch Changes
+
+- Updated dependencies [df1288f]
+  - @backstage-community/plugin-redhat-resource-optimization-backend@1.0.3
+
 ## 0.0.3
 
 ### Patch Changes

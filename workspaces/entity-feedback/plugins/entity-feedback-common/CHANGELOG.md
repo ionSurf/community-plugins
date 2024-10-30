@@ -1,5 +1,17 @@
 # @backstage-community/plugin-entity-feedback-common
 
+## 0.1.11
+
+### Patch Changes
+
+- 8cc3f65: Backstage version bump to v1.32.2
+
+## 0.1.10
+
+### Patch Changes
+
+- 2143b60: Backstage version bump to v1.31.1
+
 ## 0.1.9
 
 ### Patch Changes

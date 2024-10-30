@@ -1,5 +1,17 @@
 # @backstage-community/plugin-nomad
 
+## 0.1.20
+
+### Patch Changes
+
+- 658b3a3: Backstage version bump to v1.32.2
+
+## 0.1.19
+
+### Patch Changes
+
+- 2950c72: Backstage version bump to v1.31.1
+
 ## 0.1.18
 
 ### Patch Changes
